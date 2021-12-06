@@ -42,7 +42,7 @@ int main()
 
             std::istringstream ss(lineaDeOperacion);
             ss >> tipoOperacion >> operando1 >> esTipoSuma >> operando2;
-            // cout<<tipoOperacion<<endl;
+            
 
             if (tipoOperacion == "Hola" || tipoOperacion == "Hello")
             {
