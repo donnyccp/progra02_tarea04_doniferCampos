@@ -12,9 +12,10 @@ Adicionalmente, se implementa un método "hello" para que responda "Hello valor"
 
 Para que este programa se ejecute eficazmente es necesario que siga los siguientes requerimientos especiales:<br />
 &nbsp;&nbsp;&nbsp;1- Escriba correctamente el nombre del archibo .ini a leer.<br />
-&nbsp;&nbsp;&nbsp;2- Debe indicar al pricipio de cada linea que tipo de operacion se va a ejecutar seguido de un espacio, ejemplo "Suma 1 + 3".<br />  
-&nbsp;&nbsp;&nbsp;2- Linea que no contegan las operacioens "Hola", "Hello" o "Suma" se reconeceran como excepción del tipo "Operación no existe"<br />  
-&nbsp;&nbsp;&nbsp;3- La ubicación del archivo .ini debe ser correcta asi como el nombre de este<br />
+&nbsp;&nbsp;&nbsp;2- Debe indicar al pricipio de cada linea que tipo de operacion se va a ejecutar seguido de un espacio, ejemplo "Suma 1 + 3".<br />
+&nbsp;&nbsp;&nbsp;3- Debe dejar espacios entre cada elemento de las oraciones, ejemplo "Suma 1 + 3".<br />    
+&nbsp;&nbsp;&nbsp;4- Linea que no contegan las operacioens "Hola", "Hello" o "Suma" se reconeceran como excepción del tipo "Operación no existe"<br />  
+&nbsp;&nbsp;&nbsp;5- La ubicación del archivo .ini debe ser correcta asi como el nombre de este<br />
 
  En este programa se agegua una nueva clase, OperacionSuma, a las clases ya existentes en el programa. La clase operacionSuma, recibe procesa los datos de forma que realiza una suma con dos operandos aportador por el usuario final <br />
  Para comprobar el correcto funcionamiento del programa y sus metodos este programa cuenta con pruebas unitarias que se ejecutan usando GoogleTests, tome las previsiones necasarias para ejecuatar las pruebas, mas informacion en https://google.github.io/googletest/.<br />
